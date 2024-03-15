@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive CSS Grid</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<section>
+    <img src="./images/logo.jpg" alt="Duka Distribution Logo" class="logo">
+
+    <div class="category-products">
+        <h3>Luna coffee beans & Ama ground coffee</h3>
+        <div class="grid-container">
+            <div class="bs-card">
+                        <div class="bs-card-img" id="bs-img-1"></div>
+                        <div class="bs-card-body">
+                            <div class="bs-card-header">
+                                <a href="#" class="bs-card-title">Ama Classic</a>
+                            </div>
+                            <div class="bs-coffee-data">
+                                <span class="bs-card-brewery para-font">Ama Classic best coffe </span>
+                            </div>
+                            <div class="bs-coffee-footer">
+                    <span class="price">
+                      $13
+                    </span>
+                                <button class="add-to-cart bs-card-btn" onclick="addToCart('Amba Classic Beans' , 13)">ORDER
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+            <div class="bs-card">
+                        <div class="bs-card-img" id="bs-img-2"></div>
+                        <div class="bs-card-body">
+                            <div class="bs-card-header">
+                                <a href="#" class="bs-card-title">Ama Trend</a>
+                            </div>
+                            <div class="bs-coffee-data">
+                                <span class="bs-card-brewery para-font">Ama Trend best coffe</span>
+                            </div>
+                            <div class="bs-coffee-footer">
+                    <span class="price">
+                      $12
+                    </span>
+                                <button class="add-to-cart bs-card-btn" onclick="addToCart('Ama Trend Beans', 12)">ORDER
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+            <div class="bs-card">
+                <div class="bs-card-img" id="bs-img-3"></div>
+                <div class="bs-card-body">
+                    <div class="bs-card-header">
+                        <a href="#" class="bs-card-title">Ama PREMIUM</a>
+                    </div>
+                    <div class="bs-coffee-data">
+                        <span class="bs-card-brewery para-font">Ama PREMIUM best coffe</span>
+                    </div>
+                    <div class="bs-coffee-footer">
+            <span class="price">
+              $14
+            </span>
+                        <button class="add-to-cart bs-card-btn" onclick="addToCart('Ama Premium Beans', 14)">ORDER
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="category-products">
+            <h3>Iced Coffee</h3>
+            <div class="grid-container">
+                <div class="bs-card">
+                    <div class="bs-card-img" id="iced-coffe-cappucino"></div>
+                    <div class="bs-card-body">
+                        <div class="bs-card-header">
+                            <a href="#" class="bs-card-title">Iced Coffee Cappuccino</a>
+                        </div>
+                        <div class="bs-coffee-data">
+                            <span class="bs-card-brewery para-font">Iced Coffee Cappuccino</span>
+                        </div>
+                        <div class="bs-coffee-footer">
+                <span class="price">
+                  $13
+                </span>
+                            <button class="add-to-cart bs-card-btn" onclick="addToCart('Iced Coffee Cappuccino' , 13)">ORDER
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bs-card">
+                <div class="bs-card-img" id="iced-coffe-macchiato"></div>
+                <div class="bs-card-body">
+                    <div class="bs-card-header">
+                        <a href="#" class="bs-card-title">Iced Coffee Macchiato</a>
+                    </div>
+                    <div class="bs-coffee-data">
+                        <span class="bs-card-brewery para-font">Iced Coffee Macchiato</span>
+                    </div>
+                    <div class="bs-coffee-footer">
+            <span class="price">
+              $12
+            </span>
+                        <button class="add-to-cart bs-card-btn" onclick="addToCart('Iced Coffee Macchiato', 12)">ORDER
+                        </button>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </div>
+
+    <div class="category-products">
+            <h3>Uje Rugova</h3>
+            <div class="grid-container">
+                <div class="bs-card">
+                    <div class="bs-card-img" id="uje-rugova-0-33"></div>
+                    <div class="bs-card-body">
+                        <div class="bs-card-header">
+                            <a href="#" class="bs-card-title">Uje Rugova 0.33L</a>
+                        </div>
+                        <div class="bs-coffee-data">
+                            <span class="bs-card-brewery para-font">Uje Rugova 0.33L</span>
+                        </div>
+                        <div class="bs-coffee-footer">
+                <span class="price">
+                  $13
+                </span>
+                            <button class="add-to-cart bs-card-btn" onclick="addToCart('Uje Rugova 0.33L' , 13)">ORDER
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bs-card">
+                    <div class="bs-card-img" id="uje-rugova-0-75"></div>
+                    <div class="bs-card-body">
+                        <div class="bs-card-header">
+                            <a href="#" class="bs-card-title">Uje Rugova 0.75L</a>
+                        </div>
+                        <div class="bs-coffee-data">
+                            <span class="bs-card-brewery para-font">Uje Rugova 0.75L</span>
+                        </div>
+                        <div class="bs-coffee-footer">
+                <span class="price">
+                  $12
+                </span>
+                            <button class="add-to-cart bs-card-btn" onclick="addToCart('Uje Rugova 0.75L', 12)">ORDER
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bs-card">
+                    <div class="bs-card-img" id="uje-rugova-1-5"></div>
+                    <div class="bs-card-body">
+                        <div class="bs-card-header">
+                            <a href="#" class="bs-card-title">Uje Rugova 1.5L</a>
+                        </div>
+                        <div class="bs-coffee-data">
+                            <span class="bs-card-brewery para-font">Uje Rugova 1.5L</span>
+                        </div>
+                        <div class="bs-coffee-footer">
+                <span class="price">
+                  $12
+                </span>
+                            <button class="add-to-cart bs-card-btn" onclick="addToCart('Uje Rugova 1.5L', 12)">ORDER
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bs-card">
+                <div class="bs-card-img" id="uje-rugova-0-5"></div>
+                <div class="bs-card-body">
+                    <div class="bs-card-header">
+                        <a href="#" class="bs-card-title">Uje Rugova 0.5L</a>
+                    </div>
+                    <div class="bs-coffee-data">
+                        <span class="bs-card-brewery para-font">Uje Rugova 0.5L</span>
+                    </div>
+                    <div class="bs-coffee-footer">
+            <span class="price">
+              $12
+            </span>
+                        <button class="add-to-cart bs-card-btn" onclick="addToCart('Uje Rugova 0.5L', 12)">ORDER
+                        </button>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </div>
+
+    <div class="category-products">
+            <h3>Sugar</h3>
+            <div class="grid-container">
+                <div class="bs-card-sugar">
+                    <div class="bs-card-body">
+                        <div class="bs-card-header">
+                            <a href="#" class="bs-card-title">Sugar White</a>
+                        </div>
+                        <div class="bs-coffee-data">
+                            <span class="bs-card-brewery para-font">Sugar White</span>
+                        </div>
+                        <div class="bs-coffee-footer">
+                <span class="price">
+                  $13
+                </span>
+                            <button class="add-to-cart bs-card-btn" onclick="addToCart('Sugar White' , 13)">ORDER
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bs-card-sugar">
+                <div class="bs-card-body">
+                    <div class="bs-card-header">
+                        <a href="#" class="bs-card-title">Sugar Brown</a>
+                    </div>
+                    <div class="bs-coffee-data">
+                        <span class="bs-card-brewery para-font">Sugar Brown</span>
+                    </div>
+                    <div class="bs-coffee-footer">
+            <span class="price">
+              $12
+            </span>
+                        <button class="add-to-cart bs-card-btn" onclick="addToCart('Sugar Brown', 12)">ORDER
+                        </button>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </div>
+
+    <div class="checkout-center">
+        <div class="checkout">
+            <h2>Checkout</h2>
+            <div class="checkout-items"></div>
+            <div class="checkout-total">Total: $<span id="total">0</span></div>
+            <button class="whatsapp-button" onclick="orderViaWhatsApp()">Order via WhatsApp</button>
+        </div>
+    </div>
+
+</section>
+<script src="script.js"></script>
+
+</body>
+</html>
