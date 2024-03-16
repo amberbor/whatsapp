@@ -381,6 +381,7 @@ input[type="text"] {
         border-radius: 5px;
         cursor: pointer;
         transition: background-color 0.3s;
+        touch-action: manipulation;
     }
 
     .quantity-btn:hover {
