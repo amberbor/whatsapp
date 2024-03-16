@@ -353,6 +353,24 @@
     transform: translateY(1px);
 }
 
+input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+
+    /* Style for error messages */
+    .errorMessage {
+        color: red;
+        display: none;
+        margin-top: 2px;
+        font-size: 14px;
+    }
+
 
 
 

@@ -27,6 +27,12 @@ function updateCart() {
     const cartItems = document.querySelector('.checkout-items');
     cartItems.innerHTML = '';
 
+    cartItems.innerHTML += `
+            <div>
+                <p>Order Details</p>
+            </div>
+    `;
+
     cart.forEach(item => {
         let itemDisplay = item.item;
         itemDisplay += ` x ${item.quantity}`;
@@ -52,13 +58,49 @@ function updateCart() {
 
 
 
+
+function validateAndOrder() {
+    const businessNameInput = document.getElementById('businessName');
+    const postCodeInput = document.getElementById('postCode');
+    const businessNameErrorMessage = document.getElementById('businessNameErrorMessage');
+    const postCodeErrorMessage = document.getElementById('postCodeErrorMessage');
+
+    // Check if fields are empty
+    if (!businessNameInput.value) {
+        businessNameErrorMessage.textContent = "Please enter the name of the business.";
+        businessNameErrorMessage.style.display = 'block';
+    } else {
+        businessNameErrorMessage.style.display = 'none';
+    }
+
+    if (!postCodeInput.value) {
+        postCodeErrorMessage.textContent = "Please enter the post code.";
+        postCodeErrorMessage.style.display = 'block';
+    } else {
+        postCodeErrorMessage.style.display = 'none';
+    }
+
+    // Proceed with the order if both fields are filled out
+    if (businessNameInput.value && postCodeInput.value) {
+        orderViaWhatsApp();
+    }
+}
+
+
 function orderViaWhatsApp() {
-    let message = 'Order Details:\n\n';
+    // Append business name and post code to the message
+    let message = ''
+    const businessName = document.getElementById('businessName').value;
+    const postCode = document.getElementById('postCode').value;
+    message += `Business Name: ${businessName}\n`;
+    message += `Post Code: ${postCode}\n\n`;
+
+    message += 'Order Details:\n\n';
     cart.forEach(item => {
-            message += `${item.quantity > 1 ? `${item.quantity} x ` : ''}${item.item}\n\n`;
+        message += `${item.quantity > 1 ? `${item.quantity} x ` : ''}${item.item}\n\n`;
     });
-    // message += `Total: $${document.getElementById('total').textContent}`;
     const whatsappLink = `https://wa.me/+355699577766?text=${encodeURIComponent(message)}`;
     window.location.href = whatsappLink;
 }
+
 
