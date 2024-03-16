@@ -370,6 +370,33 @@ input[type="text"] {
         margin-top: 2px;
         font-size: 14px;
     }
+.quantity-btn {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+        border: none;
+        background-color: #8d8d8d;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .quantity-btn:hover {
+        background-color: #03648c;
+    }
+
+    .quantity-div {
+        display: flex;
+        align-items: center;
+    }
+
+    .quantity {
+        font-size: 16px;
+        padding: 5px;
+        margin: 0 10px;
+    }
 
 
 
