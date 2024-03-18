@@ -99,7 +99,7 @@ function orderViaWhatsApp() {
     cart.forEach(item => {
         message += `${item.quantity > 1 ? `${item.quantity} x ` : ''}${item.item}\n\n`;
     });
-    const whatsappLink = `https://wa.me/+355699577766?text=${encodeURIComponent(message)}`;
+    const whatsappLink = `https://wa.me/+447787402004?text=${encodeURIComponent(message)}`;
     window.location.href = whatsappLink;
 }
 
