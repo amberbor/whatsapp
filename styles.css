@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Cherokee:wght@400;500;700&display=swap');
 
 :root{
-  --para-text: 'Josefin Slab', serif;
+  --para-text: 'Noto Sans Cherokee', serif;
 }
 
 *{
@@ -223,19 +223,19 @@
     background-image: url("./images/ama_capsule_box_premium.jpg");
 }
 
-#uje-rugova-0-33 {
+#uje-rugove-0-33 {
     background-image: url("./images/uje_rugova_0.33.jpeg");
 }
 
-#uje-rugova-0-75 {
+#uje-rugove-0-75 {
     background-image: url("./images/uje_rugova_0.75.jpeg");
 }
 
-#uje-rugova-1-5 {
+#uje-rugove-1-5 {
     background-image: url("./images/uje_rugova_1.5.jpeg");
 }
 
-#uje-rugova-0-5 {
+#uje-rugove-0-5 {
     background-image: url("./images/uje_rugova_0.5.jpeg");
 }
 
