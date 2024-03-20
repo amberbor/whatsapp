@@ -284,6 +284,21 @@
     background-image: url("./images/wine_cebernet.jpeg");
 }
 
+#turkish-ama-coffee-100gr {
+    background-image: url("./images/kafe_turke_100gr.jpg");
+}
+
+#turkish-ama-coffee-400gr {
+    background-image: url("./images/kafe_turke_400gr.jpg");
+}
+
+#turkish-luna-coffee{
+    background-image: url("./images/kafe_turke_luna.jpg");
+}
+
+#set-50-gota{
+    background-image: url("./images/Set-50-gota-sheqer-luge.png");
+}
 
 
 .checkout-center{
