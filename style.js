@@ -103,4 +103,8 @@ function orderViaWhatsApp() {
     window.location.href = whatsappLink;
 }
 
-
+document.getElementById('scrollToCheckoutBtn').addEventListener('click', function() {
+    // Scroll to the checkout section
+    const checkoutSection = document.querySelector('.checkout-center');
+    checkoutSection.scrollIntoView({ behavior: 'smooth' });
+});

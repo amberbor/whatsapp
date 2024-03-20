@@ -45,8 +45,8 @@
     }
 
     .logo {
-    margin: 0 auto 2% auto;
-}
+        margin: 0 auto 2% auto;
+    }
 }
 @media screen and (min-width: 1301px) {
     .grid-container {
@@ -414,6 +414,23 @@ input[type="text"] {
         margin: 0 10px;
     }
 
+    .scroll-to-checkout-container {
+    position: fixed;
+    bottom: 5%;
+    right: 5px;
+    transform: translateY(-50%);
+}
+
+    #scrollToCheckoutBtn {
+    border-radius: 20px;
+    padding: 12px 12px;
+    background-color: #e7e5e5;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 12px;
+}
 
 
 
