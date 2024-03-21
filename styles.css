@@ -296,10 +296,19 @@
     background-image: url("./images/kafe_turke_luna.jpg");
 }
 
+/*sugar*/
+
 #set-50-gota{
     background-image: url("./images/Set-50-gota-sheqer-luge.png");
 }
 
+#white-sugar{
+    background-image: url("./images/white-sugar-cubic.jpeg");
+}
+
+#brown-sugar{
+    background-image: url("./images/white-sugar-cubic.jpeg");
+}
 
 .checkout-center{
     padding: 20px;
