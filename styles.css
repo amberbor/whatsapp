@@ -284,6 +284,14 @@
     background-image: url("./images/wine_cebernet.jpeg");
 }
 
+#reserva-superiore-wine {
+    background-image: url("./images/reserva-superiore-wine.jpg");
+}
+
+#rose-wine {
+    background-image: url("./images/rose-wine.jpg");
+}
+
 #turkish-ama-coffee-100gr {
     background-image: url("./images/kafe_turke_100gr.jpg");
 }
