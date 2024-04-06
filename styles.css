@@ -24,45 +24,6 @@
     padding: 20px;
 }
 
-@media screen and (max-width: 670px) {
-    .grid-container {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
-@media screen and (min-width: 671px) and (max-width: 980px) {
-    .grid-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media screen and (min-width: 981px) and (max-width: 1300px) {
-    .grid-container {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .category-products h3{
-        font-size: 2rem !important;
-    }
-
-    .logo {
-        margin: 0 auto 2% auto;
-    }
-}
-@media screen and (min-width: 1301px) {
-    .grid-container {
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-    .category-products h3{
-        font-size: 2rem !important;
-    }
-
-    .logo {
-    margin: 0 auto 2% auto;
-
-}
-}
-
 
 .bs-card {
     width: 300px;
@@ -169,6 +130,82 @@
     margin: 20px auto;
     width: 100%;
     text-align: center;
+}
+
+@media screen and (max-width: 670px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .bs-card-img {
+        height: 200px;
+    width: auto;
+    padding: 10%;
+    background-position: center 45%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #efefef;
+
+    }
+
+    .bs-card {
+    max-width: 300px; /* Instead of fixed width */
+    width: 100%; /* Allow flexibility */
+    height: 400px;
+    margin: 0 auto;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+    .bs-card-title {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: inherit;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 10px;
+}
+    .bs-coffee-data{
+  font-family: var(--para-text);
+  font-size: 0.9rem;
+  font-weight: 500;
+  display: flex;
+  flex-flow: column;
+  gap: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #aaa;
+}
+}
+
+@media screen and (min-width: 671px) and (max-width: 980px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 981px) and (max-width: 1300px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .category-products h3{
+        font-size: 2rem !important;
+    }
+
+    .logo {
+        margin: 0 auto 2% auto;
+    }
+}
+@media screen and (min-width: 1301px) {
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .category-products h3{
+        font-size: 2rem !important;
+    }
+
+    .logo {
+    margin: 0 auto 2% auto;
+
+}
 }
 
 #bs-img-1 {
