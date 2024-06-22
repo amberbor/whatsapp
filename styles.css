@@ -208,157 +208,6 @@
 }
 }
 
-#bs-img-1 {
-    background-image: url("./images/ama_classic.jpg");
-}
-
-#bs-img-2 {
-    background-image: url("./images/ama_trend.jpg");
-}
-
-#bs-img-3 {
-    background-image: url("./images/ama_premium.jpeg");
-}
-
-#bs-img-4 {
-    background-image: url("./images/ama_premium.jpeg");
-}
-
-#ama-diamond {
-    background-image: url("./images/ama_diamond.jpg");
-}
-
-#classic-kafe-e-bluar {
-    background-image: url("./images/classic_kafe_e_bluar.jpg");
-}
-
-#premium-kafe-e-bluar {
-    background-image: url("./images/premium_kafe_e_bluar.jpg");
-}
-
-#ama-capsule-soprano {
-    background-image: url("./images/ama_capsule_soprano.jpg");
-}
-
-#ama-capsule-premium {
-    background-image: url("./images/ama_capsule_premium.jpg");
-}
-
-#ama-capsule-decaff {
-    background-image: url("./images/ama_capsule_decaff.jpg");
-}
-
-#ama-capsule-intenso {
-    background-image: url("./images/ama_capsule_intenso.jpg");
-}
-
-#capsule-intenso-box {
-    background-image: url("./images/ama_capsule_box_intenso.jpg");
-}
-
-#capsule-premium-box {
-    background-image: url("./images/ama_capsule_box_premium.jpg");
-}
-
-#uje-rugove-0-33 {
-    background-image: url("./images/uje_rugova_0.33.jpeg");
-}
-
-#uje-rugove-0-75 {
-    background-image: url("./images/uje_rugova_0.75.jpeg");
-}
-
-#uje-rugove-1-5 {
-    background-image: url("./images/uje_rugova_1.5.jpeg");
-}
-
-#uje-rugove-0-5 {
-    background-image: url("./images/uje_rugova_0.5.jpeg");
-}
-
-#luna-blue {
-    background-image: url("./images/ama_blue.jpeg");
-}
-
-#luna-gold {
-    background-image: url("./images/ama_gold.jpeg");
-}
-
-#ama-turkish {
-    background-image: url("./images/ama_turke.jpeg");
-}
-
-#iced-coffe-cappucino {
-    background-image: url("./images/iced_coffe_cappucino.jpeg");
-}
-
-#iced-coffe-macchiato {
-    background-image: url("./images/iced_coffe_macchiato.jpeg");
-}
-
-/*wine*/
-#wine-merlot {
-    background-image: url("./images/wine_merlot.jpeg");
-}
-
-#rakia-gjyshit {
-    background-image: url("./images/rakia_gjyshit.jpeg");
-}
-
-#wine-reserva {
-    background-image: url("./images/wine_reserva.jpeg");
-}
-
-#wine-shesh-i-bardhe {
-    background-image: url("./images/wine_shesh_i_bardhe.jpeg");
-}
-
-#wine-tempranillo {
-    background-image: url("./images/wine_tempranillo.jpeg");
-}
-
-#wine-cebernet {
-    background-image: url("./images/wine_cebernet.jpeg");
-}
-
-#reserva-superiore-wine {
-    background-image: url("./images/reserva-superiore-wine.jpg");
-}
-
-#rose-wine {
-    background-image: url("./images/rose-wine.jpg");
-}
-
-#turkish-ama-coffee-100gr {
-    background-image: url("./images/kafe_turke_100gr.jpg");
-}
-
-#turkish-ama-coffee-400gr {
-    background-image: url("./images/kafe_turke_400gr.jpg");
-}
-
-#turkish-luna-coffee{
-    background-image: url("./images/kafe_turke_luna.jpg");
-}
-
-#ama-cialde-bustina-decaffeinato{
-    background-image: url("./images/ama-cialde-bsutina-decaffeinato.jpg");
-}
-
-/*sugar*/
-
-#set-50-gota{
-    background-image: url("./images/Set-50-gota-sheqer-luge.png");
-}
-
-#white-sugar{
-    background-image: url("./images/white-sugar-cubic.jpeg");
-}
-
-#brown-sugar{
-    background-image: url("./images/white-sugar-cubic.jpeg");
-}
-
 .checkout-center{
     padding: 20px;
     border-radius: 10px;
@@ -490,5 +339,47 @@ input[type="text"] {
     font-size: 12px;
 }
 
-
-
+/* Specific Image Backgrounds */
+#bs-img-1 { background-image: url("./images/ama_classic.jpg"); }
+#bs-img-2 { background-image: url("./images/ama_trend.jpg"); }
+#bs-img-3 { background-image: url("./images/ama_premium.jpeg"); }
+#ama-diamond { background-image: url("./images/ama_diamond.jpg"); }
+#classic-kafe-e-bluar { background-image: url("./images/classic_kafe_e_bluar.jpg"); }
+#premium-kafe-e-bluar { background-image: url("./images/premium_kafe_e_bluar.jpg"); }
+#capsule-intenso-box { background-image: url("./images/ama_capsule_box_intenso.jpg"); }
+#capsule-premium-box { background-image: url("./images/ama_capsule_box_premium.jpg"); }
+#uje-rugove-0-33 { background-image: url("./images/uje_rugova_0.33.jpeg"); }
+#uje-rugove-0-75 { background-image: url("./images/uje_rugova_0.75.jpeg"); }
+#uje-rugove-1-5 { background-image: url("./images/uje_rugova_1.5.jpeg"); }
+#uje-rugove-0-5 { background-image: url("./images/uje_rugova_0.5.jpeg"); }
+#luna-blue { background-image: url("./images/ama_blue.jpeg"); }
+#luna-gold { background-image: url("./images/ama_gold.jpeg"); }
+#ama-turkish { background-image: url("./images/ama_turke.jpeg"); }
+#iced-coffe-cappucino { background-image: url("./images/iced_coffe_cappucino.jpeg"); }
+#iced-coffe-macchiato { background-image: url("./images/iced_coffe_macchiato.jpeg"); }
+#wine-merlot { background-image: url("./images/wine_merlot.jpeg"); }
+#rakia-gjyshit { background-image: url("./images/rakia_gjyshit.jpeg"); }
+#wine-reserva { background-image: url("./images/wine_reserva.jpeg"); }
+#wine-shesh-i-bardhe { background-image: url("./images/wine_shesh_i_bardhe.jpeg"); }
+#wine-tempranillo { background-image: url("./images/wine_tempranillo.jpeg"); }
+#wine-cebernet { background-image: url("./images/wine_cebernet.jpeg"); }
+#reserva-superiore-wine { background-image: url("./images/reserva-superiore-wine.jpg"); }
+#rose-wine { background-image: url("./images/rose-wine.jpg"); }
+#turkish-ama-coffee-100gr { background-image: url("./images/kafe_turke_100gr.jpg"); }
+#turkish-ama-coffee-400gr { background-image: url("./images/kafe_turke_400gr.jpg"); }
+#turkish-luna-coffee { background-image: url("./images/kafe_turke_luna.jpg"); }
+#ama-cialde-bustina-decaffeinato { background-image: url("./images/ama-cialde-bsutina-decaffeinato.jpg"); }
+#set-50-gota { background-image: url("./images/Set-50-gota-sheqer-luge.png"); }
+#white-sugar { background-image: url("./images/white-sugar-cubic.jpeg"); }
+#brown-sugar { background-image: url("./images/white-sugar-cubic.jpeg"); }
+#pilsner-glass { background-image: url("./images/pilsner_qelq_330ml.png"); }
+#pilsner-can-330ml { background-image: url("./images/pilsner_500ml.png"); }
+#pilsner-can-500ml { background-image: url("./images/pilsner_500ml.png"); }
+#lager-glass { background-image: url("./images/lager_qelq_250ml.png"); }
+#lager-can { background-image: url("./images/lager_250ml.png"); }
+#crudo-glass { background-image: url("./images/crudo_qelq_330ml.png"); }
+#crudo { background-image: url("./images/crudo_qelq_330ml.png"); }
+#zero-glass { background-image: url("./images/zero_qelq_330ml.png"); }
+#zero-can-330ml { background-image: url("./images/zero_qelq_330ml.png"); }
+#zero-can-500ml { background-image: url("./images/zero_qelq_330ml.png"); }
+#pilsner-keg { background-image: url("./images/pilsner_30lit.png"); }
