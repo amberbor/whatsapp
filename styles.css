@@ -136,6 +136,11 @@
     .grid-container {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .grid-container-new-in{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     .bs-card-img {
         height: 120px;
     width: auto;
