@@ -5,99 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DUKA Distribution</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
 <section>
     <img src="./images/logo.png" alt="Duka Distribution Logo" class="logo">
     <div class="category-products">
         <h3>Order Now</h3>
-        <div class="grid-container">
-            <div class="bs-card">
-                <div class="bs-card-img" id="bs-img-2"></div>
-                <div class="bs-card-body">
-                    <div class="bs-card-header">
-                        <a href="#" class="bs-card-title">Ama Trend Coffee</a>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="bs-card">
+                        <div class="bs-card-img" id="bs-img-2"></div>
+                        <div class="bs-card-body">
+                            <div class="bs-card-header">
+                                <a href="#" class="bs-card-title">Ama Trend</a>
+                            </div>
+                            <div class="bs-coffee-data">
+                                <span class="bs-card-brewery para-font">Package: 10 x 1kg</span>
+                            </div>
+                            <div class="bs-coffee-footer">
+                                <span class="price"></span>
+                                <div class="quantity-div">
+                                    <button class="quantity-btn" onclick="decrementQuantity('Ama Trend')">-</button>
+                                    <span class="quantity">0</span>
+                                    <button class="quantity-btn" onclick="incrementQuantity('Ama Trend')">+</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="bs-coffee-data">
-                        <span class="bs-card-brewery para-font">Package: 10 x 1kg</span>
+                </div>
+                <div class="swiper-slide">
+                    <div class="bs-card">
+                        <div class="bs-card-img" id="bs-img-1"></div>
+                        <div class="bs-card-body">
+                            <div class="bs-card-header">
+                                <a href="#" class="bs-card-title">Ama Classic</a>
+                            </div>
+                            <div class="bs-coffee-data">
+                                <span class="bs-card-brewery para-font">Package: 10 x 1kg</span>
+                            </div>
+                            <div class="bs-coffee-footer">
+                                <span class="price"></span>
+                                <div class="quantity-div">
+                                    <button class="quantity-btn" onclick="decrementQuantity('Ama Classic')">-</button>
+                                    <span class="quantity">0</span>
+                                    <button class="quantity-btn" onclick="incrementQuantity('Ama Classic')">+</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="bs-coffee-footer">
-                    <span class="price">
-                    </span>
-                        <div class="quantity-div">
-                            <button class="quantity-btn" onclick="decrementQuantity('Ama Trend')">-</button>
-                            <span class="quantity">0</span>
-                            <button class="quantity-btn" onclick="incrementQuantity('Ama Trend')">+</button>
+                </div>
+                <div class="swiper-slide">
+                    <div class="bs-card">
+                        <div class="bs-card-img" id="bs-img-3"></div>
+                        <div class="bs-card-body">
+                            <div class="bs-card-header">
+                                <a href="#" class="bs-card-title">Ama PREMIUM</a>
+                            </div>
+                            <div class="bs-coffee-data">
+                                <span class="bs-card-brewery para-font">Package: 10 x 1kg</span>
+                            </div>
+                            <div class="bs-coffee-footer">
+                                <span class="price"></span>
+                                <div class="quantity-div">
+                                    <button class="quantity-btn" onclick="decrementQuantity('Ama PREMIUM')">-</button>
+                                    <span class="quantity">0</span>
+                                    <button class="quantity-btn" onclick="incrementQuantity('Ama PREMIUM')">+</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="bs-card">
-                <div class="bs-card-img" id="bs-img-1"></div>
-                <div class="bs-card-body">
-                    <div class="bs-card-header">
-                        <a href="#" class="bs-card-title">Ama Classic Coffee</a>
-                    </div>
-                    <div class="bs-coffee-data">
-                        <span class="bs-card-brewery para-font">Package: 10 x 1kg</span>
-                    </div>
-                    <div class="bs-coffee-footer">
-                    <span class="price">
-                    </span>
-                        <div class="quantity-div">
-                            <button class="quantity-btn" onclick="decrementQuantity('Ama Classic')">-</button>
-                            <span class="quantity">0</span>
-                            <button class="quantity-btn" onclick="incrementQuantity('Ama Classic')">+</button>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="bs-card">
+                        <div class="bs-card-img" id="luna-blue"></div>
+                        <div class="bs-card-body">
+                            <div class="bs-card-header">
+                                <a href="#" class="bs-card-title">Luna Blue</a>
+                            </div>
+                            <div class="bs-coffee-data">
+                                <span class="bs-card-brewery para-font">Package: 10 x 1kg</span>
+                            </div>
+                            <div class="bs-coffee-footer">
+                                <span class="price"></span>
+                                <div class="quantity-div">
+                                    <button class="quantity-btn" onclick="decrementQuantity('Luna Blue')">-</button>
+                                    <span class="quantity">0</span>
+                                    <button class="quantity-btn" onclick="incrementQuantity('Luna Blue')">+</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="bs-card">
-                <div class="bs-card-img" id="bs-img-3"></div>
-                <div class="bs-card-body">
+                <div class="swiper-slide">
+                    <div class="bs-card">
+                        <div class="bs-card-img" id="luna-gold"></div>
+                        <div class="bs-card-body">
                     <div class="bs-card-header">
-                        <a href="#" class="bs-card-title">Ama PREMIUM Coffee</a>
-                    </div>
-                    <div class="bs-coffee-data">
-                        <span class="bs-card-brewery para-font">Package: 10 x 1kg</span>
-                    </div>
-                    <div class="bs-coffee-footer">
-            <span class="price">
-            </span>
-                        <div class="quantity-div">
-                            <button class="quantity-btn" onclick="decrementQuantity('Ama PREMIUM')">-</button>
-                            <span class="quantity">0</span>
-                            <button class="quantity-btn" onclick="incrementQuantity('Ama PREMIUM')">+</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="bs-card">
-                <div class="bs-card-img" id="luna-blue"></div>
-                <div class="bs-card-body">
-                    <div class="bs-card-header">
-                        <a href="#" class="bs-card-title">Luna Blue Coffee</a>
-                    </div>
-                    <div class="bs-coffee-data">
-                        <span class="bs-card-brewery para-font">Package: 10 x 1kg</span>
-                    </div>
-                    <div class="bs-coffee-footer">
-            <span class="price">
-            </span>
-                        <div class="quantity-div">
-                            <button class="quantity-btn" onclick="decrementQuantity('Luna Blue')">-</button>
-                            <span class="quantity">0</span>
-                            <button class="quantity-btn" onclick="incrementQuantity('Luna Blue')">+</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="bs-card">
-                <div class="bs-card-img" id="luna-gold"></div>
-                <div class="bs-card-body">
-                    <div class="bs-card-header">
-                        <a href="#" class="bs-card-title">Luna Gold Coffee</a>
+                        <a href="#" class="bs-card-title">Luna Gold</a>
                     </div>
                     <div class="bs-coffee-data">
                         <span class="bs-card-brewery para-font">Package: 10 x 1kg</span>
@@ -112,12 +123,14 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="bs-card">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="bs-card">
                 <div class="bs-card-img" id="ama-diamond"></div>
                 <div class="bs-card-body">
                     <div class="bs-card-header">
-                        <a href="#" class="bs-card-title">Ama Diamomd Coffee</a>
+                        <a href="#" class="bs-card-title">Ama Diamomd</a>
                     </div>
                     <div class="bs-coffee-data">
                         <span class="bs-card-brewery para-font">Package: 1 x 2kg</span>
@@ -133,13 +146,17 @@
                     </div>
                 </div>
             </div>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="category-products">
         <h3>Ground Coffee</h3>
-        <div class="grid-container">
-            <div class="bs-card">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="bs-card">
                 <div class="bs-card-img" id="classic-kafe-e-bluar"></div>
                 <div class="bs-card-body">
                     <div class="bs-card-header">
@@ -159,7 +176,9 @@
                     </div>
                 </div>
             </div>
-            <div class="bs-card">
+                </div>
+                <div class="swiper-slide">
+                    <div class="bs-card">
                 <div class="bs-card-img" id="premium-kafe-e-bluar"></div>
                 <div class="bs-card-body">
                     <div class="bs-card-header">
@@ -179,13 +198,18 @@
                     </div>
                 </div>
             </div>
+                </div>
+
+            </div>
         </div>
     </div>
 
     <div class="category-products">
         <h3>Turkish Coffee</h3>
-        <div class="grid-container">
-            <div class="bs-card">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="bs-card">
                 <div class="bs-card-img" id="turkish-ama-coffee-100gr"></div>
                 <div class="bs-card-body">
                     <div class="bs-card-header">
@@ -205,7 +229,9 @@
                     </div>
                 </div>
             </div>
-            <div class="bs-card">
+                </div>
+                <div class="swiper-slide">
+                    <div class="bs-card">
                 <div class="bs-card-img" id="turkish-ama-coffee-400gr"></div>
                 <div class="bs-card-body">
                     <div class="bs-card-header">
@@ -225,7 +251,9 @@
                     </div>
                 </div>
             </div>
-            <div class="bs-card">
+                </div>
+                <div class="swiper-slide">
+                    <div class="bs-card">
                 <div class="bs-card-img" id="turkish-luna-coffee"></div>
                 <div class="bs-card-body">
                     <div class="bs-card-header">
@@ -245,17 +273,21 @@
                     </div>
                 </div>
             </div>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="category-products">
         <h3>Ama Capsule</h3>
-        <div class="grid-container">
-            <div class="bs-card">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="bs-card">
                 <div class="bs-card-img" id="capsule-intenso-box"></div>
                 <div class="bs-card-body">
                     <div class="bs-card-header">
-                        <a href="#" class="bs-card-title">Capsule Intenso Box</a>
+                        <a href="#" class="bs-card-title">Capsule Intenso Box 96</a>
                     </div>
                     <div class="bs-coffee-data">
                         <span class="bs-card-brewery para-font">Package: 96 capsules</span>
@@ -273,11 +305,13 @@
                     </div>
                 </div>
             </div>
-            <div class="bs-card">
+                </div>
+                <div class="swiper-slide">
+                    <div class="bs-card">
                 <div class="bs-card-img" id="capsule-premium-box"></div>
                 <div class="bs-card-body">
                     <div class="bs-card-header">
-                        <a href="#" class="bs-card-title">Capsule Premium Box</a>
+                        <a href="#" class="bs-card-title">Capsule Premium Box 96</a>
                     </div>
                     <div class="bs-coffee-data">
                         <span class="bs-card-brewery para-font">Package: 96 capsules</span>
@@ -295,7 +329,9 @@
                     </div>
                 </div>
             </div>
-            <div class="bs-card">
+                </div>
+                <div class="swiper-slide">
+                    <div class="bs-card">
                 <div class="bs-card-img" id="ama-cialde-bustina-decaffeinato"></div>
                 <div class="bs-card-body">
                     <div class="bs-card-header">
@@ -317,13 +353,17 @@
                     </div>
                 </div>
             </div>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="category-products">
         <h3>Iced Coffee</h3>
-        <div class="grid-container">
-            <div class="bs-card">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="bs-card">
                 <div class="bs-card-img" id="iced-coffe-cappucino"></div>
                 <div class="bs-card-body">
                     <div class="bs-card-header">
@@ -345,7 +385,9 @@
                     </div>
                 </div>
             </div>
-            <div class="bs-card">
+                </div>
+                <div class="swiper-slide">
+                    <div class="bs-card">
                 <div class="bs-card-img" id="iced-coffe-macchiato"></div>
                 <div class="bs-card-body">
                     <div class="bs-card-header">
@@ -365,13 +407,17 @@
                     </div>
                 </div>
             </div>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="category-products">
         <h3>Uje Rugove</h3>
-        <div class="grid-container">
-            <div class="bs-card">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="bs-card">
                 <div class="bs-card-img" id="uje-rugove-0-33"></div>
                 <div class="bs-card-body">
                     <div class="bs-card-header">
@@ -391,7 +437,9 @@
                     </div>
                 </div>
             </div>
-            <div class="bs-card">
+                </div>
+                <div class="swiper-slide">
+                    <div class="bs-card">
                 <div class="bs-card-img" id="uje-rugove-0-75"></div>
                 <div class="bs-card-body">
                     <div class="bs-card-header">
@@ -411,7 +459,13 @@
                     </div>
                 </div>
             </div>
-            <div class="bs-card">
+                </div>
+            </div>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="bs-card">
                 <div class="bs-card-img" id="uje-rugove-1-5"></div>
                 <div class="bs-card-body">
                     <div class="bs-card-header">
@@ -431,7 +485,9 @@
                     </div>
                 </div>
             </div>
-            <div class="bs-card">
+                </div>
+                <div class="swiper-slide">
+                    <div class="bs-card">
                 <div class="bs-card-img" id="uje-rugove-0-5"></div>
                 <div class="bs-card-body">
                     <div class="bs-card-header">
@@ -451,13 +507,17 @@
                     </div>
                 </div>
             </div>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="category-products">
-        <h3>Wine</h3>
-        <div class="grid-container">
-            <div class="bs-card">
+        <h3>Uje Rugove</h3>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                     <div class="bs-card">
                 <div class="bs-card-img" id="rakia-gjyshit"></div>
                 <div class="bs-card-body">
                     <div class="bs-card-header">
@@ -475,27 +535,31 @@
                     </div>
                 </div>
             </div>
-            <div class="bs-card">
-                <div class="bs-card-img" id="wine-shesh-i-bardhe"></div>
-                <div class="bs-card-body">
-                    <div class="bs-card-header">
-                        <a href="#" class="bs-card-title">Shesh I Bardhe</a>
-                    </div>
-                    <div class="bs-coffee-data">
-                        <span class="bs-card-brewery para-font">Package: 6 bottles</span>
-                    </div>
-                    <div class="bs-coffee-footer">
-                <span class="price">
-                </span>
-                        <div class="quantity-div">
-                            <button class="quantity-btn" onclick="decrementQuantity('Shesh I Bardhe')">-</button>
-                            <span class="quantity">0</span>
-                            <button class="quantity-btn" onclick="incrementQuantity('Shesh I Bardhe')">+</button>
+                </div>
+                <div class="swiper-slide">
+                    <div class="bs-card">
+                    <div class="bs-card-img" id="wine-shesh-i-bardhe"></div>
+                    <div class="bs-card-body">
+                        <div class="bs-card-header">
+                            <a href="#" class="bs-card-title">Shesh I Bardhe</a>
+                        </div>
+                        <div class="bs-coffee-data">
+                            <span class="bs-card-brewery para-font">Package: 6 bottles</span>
+                        </div>
+                        <div class="bs-coffee-footer">
+                    <span class="price">
+                    </span>
+                            <div class="quantity-div">
+                                <button class="quantity-btn" onclick="decrementQuantity('Shesh I Bardhe')">-</button>
+                                <span class="quantity">0</span>
+                                <button class="quantity-btn" onclick="incrementQuantity('Shesh I Bardhe')">+</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="bs-card">
+                </div>
+                <div class="swiper-slide">
+                    <div class="bs-card">
                 <div class="bs-card-img" id="rose-wine"></div>
                 <div class="bs-card-body">
                     <div class="bs-card-header">
@@ -515,7 +579,13 @@
                     </div>
                 </div>
             </div>
-            <div class="bs-card">
+                </div>
+            </div>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="bs-card">
                 <div class="bs-card-img" id="wine-merlot"></div>
                 <div class="bs-card-body">
                     <div class="bs-card-header">
@@ -535,27 +605,31 @@
                     </div>
                 </div>
             </div>
-            <div class="bs-card">
-                <div class="bs-card-img" id="wine-tempranillo"></div>
-                <div class="bs-card-body">
-                    <div class="bs-card-header">
-                        <a href="#" class="bs-card-title">Tempranillo</a>
-                    </div>
-                    <div class="bs-coffee-data">
-                        <span class="bs-card-brewery para-font">Package: 6 bottles</span>
-                    </div>
-                    <div class="bs-coffee-footer">
-                <span class="price">
-                </span>
-                        <div class="quantity-div">
-                            <button class="quantity-btn" onclick="decrementQuantity('Tempranillo')">-</button>
-                            <span class="quantity">0</span>
-                            <button class="quantity-btn" onclick="incrementQuantity('Tempranillo')">+</button>
+                </div>
+                <div class="swiper-slide">
+                    <div class="bs-card">
+                    <div class="bs-card-img" id="wine-tempranillo"></div>
+                    <div class="bs-card-body">
+                        <div class="bs-card-header">
+                            <a href="#" class="bs-card-title">Tempranillo</a>
+                        </div>
+                        <div class="bs-coffee-data">
+                            <span class="bs-card-brewery para-font">Package: 6 bottles</span>
+                        </div>
+                        <div class="bs-coffee-footer">
+                    <span class="price">
+                    </span>
+                            <div class="quantity-div">
+                                <button class="quantity-btn" onclick="decrementQuantity('Tempranillo')">-</button>
+                                <span class="quantity">0</span>
+                                <button class="quantity-btn" onclick="incrementQuantity('Tempranillo')">+</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="bs-card">
+                </div>
+                <div class="swiper-slide">
+                    <div class="bs-card">
                 <div class="bs-card-img" id="wine-cebernet"></div>
                 <div class="bs-card-body">
                     <div class="bs-card-header">
@@ -573,7 +647,13 @@
                     </div>
                 </div>
             </div>
-            <div class="bs-card">
+                </div>
+            </div>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="bs-card">
                 <div class="bs-card-img" id="wine-reserva"></div>
                 <div class="bs-card-body">
                     <div class="bs-card-header">
@@ -593,7 +673,9 @@
                     </div>
                 </div>
             </div>
-            <div class="bs-card">
+                </div>
+                <div class="swiper-slide">
+                    <div class="bs-card">
                 <div class="bs-card-img" id="reserva-superiore-wine"></div>
                 <div class="bs-card-body">
                     <div class="bs-card-header">
@@ -613,13 +695,17 @@
                     </div>
                 </div>
             </div>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="category-products">
         <h3>Sugar</h3>
-        <div class="grid-container">
-            <div class="bs-card">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                 <div class="swiper-slide">
+                    <div class="bs-card">
                 <div class="bs-card-img" id="set-50-gota"></div>
                 <div class="bs-card-body">
                     <div class="bs-card-header">
@@ -639,27 +725,31 @@
                     </div>
                 </div>
             </div>
-            <div class="bs-card">
-                <div class="bs-card-img" id="white-sugar"></div>
-                <div class="bs-card-body">
-                    <div class="bs-card-header">
-                        <a href="#" class="bs-card-title">Sugar White</a>
-                    </div>
-                    <div class="bs-coffee-data">
-                        <span class="bs-card-brewery para-font">Package: 5kg</span>
-                    </div>
-                    <div class="bs-coffee-footer">
-                <span class="price">
-                </span>
-                        <div class="quantity-div">
-                            <button class="quantity-btn" onclick="decrementQuantity('Sugar White')">-</button>
-                            <span class="quantity">0</span>
-                            <button class="quantity-btn" onclick="incrementQuantity('Sugar White')">+</button>
+                </div>
+                 <div class="swiper-slide">
+                    <div class="bs-card">
+                    <div class="bs-card-img" id="white-sugar"></div>
+                    <div class="bs-card-body">
+                        <div class="bs-card-header">
+                            <a href="#" class="bs-card-title">Sugar White</a>
+                        </div>
+                        <div class="bs-coffee-data">
+                            <span class="bs-card-brewery para-font">Package: 5kg</span>
+                        </div>
+                        <div class="bs-coffee-footer">
+                    <span class="price">
+                    </span>
+                            <div class="quantity-div">
+                                <button class="quantity-btn" onclick="decrementQuantity('Sugar White')">-</button>
+                                <span class="quantity">0</span>
+                                <button class="quantity-btn" onclick="incrementQuantity('Sugar White')">+</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="bs-card">
+                </div>
+                 <div class="swiper-slide">
+                    <div class="bs-card">
                 <div class="bs-card-img" id="brown-sugar"></div>
                 <div class="bs-card-body">
                     <div class="bs-card-header">
@@ -679,13 +769,17 @@
                     </div>
                 </div>
             </div>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="category-products">
         <h3>Peja Pilsner</h3>
-        <div class="grid-container">
-            <div class="bs-card">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="bs-card">
                 <div class="bs-card-img" id="pilsner-glass"></div>
                 <div class="bs-card-body">
                     <div class="bs-card-header">
@@ -705,232 +799,16 @@
                     </div>
                 </div>
             </div>
-<!--            <div class="bs-card">-->
-<!--                <div class="bs-card-img" id="pilsner-can-330ml"></div>-->
-<!--                <div class="bs-card-body">-->
-<!--                    <div class="bs-card-header">-->
-<!--                        <a href="#" class="bs-card-title">Peja Pilsner Can 330ml</a>-->
-<!--                    </div>-->
-<!--                    <div class="bs-coffee-data">-->
-<!--                        <span class="bs-card-brewery para-font">Package: 24 cans</span>-->
-<!--                    </div>-->
-<!--                    <div class="bs-coffee-footer">-->
-<!--                    <span class="price">-->
-<!--                    </span>-->
-<!--                        <div class="quantity-div">-->
-<!--                            <button class="quantity-btn" onclick="decrementQuantity('Peja Pilsner Can 330ml')">-</button>-->
-<!--                            <span class="quantity">0</span>-->
-<!--                            <button class="quantity-btn" onclick="incrementQuantity('Peja Pilsner Can 330ml')">+</button>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="bs-card">-->
-<!--                <div class="bs-card-img" id="pilsner-can-500ml"></div>-->
-<!--                <div class="bs-card-body">-->
-<!--                    <div class="bs-card-header">-->
-<!--                        <a href="#" class="bs-card-title">Peja Pilsner Can 500ml</a>-->
-<!--                    </div>-->
-<!--                    <div class="bs-coffee-data">-->
-<!--                        <span class="bs-card-brewery para-font">Package: 24 cans</span>-->
-<!--                    </div>-->
-<!--                    <div class="bs-coffee-footer">-->
-<!--            <span class="price">-->
-<!--            </span>-->
-<!--                        <div class="quantity-div">-->
-<!--                            <button class="quantity-btn" onclick="decrementQuantity('Peja Pilsner Can 500ml')">-</button>-->
-<!--                            <span class="quantity">0</span>-->
-<!--                            <button class="quantity-btn" onclick="incrementQuantity('Peja Pilsner Can 500ml')">+</button>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
+                </div>
+            </div>
         </div>
     </div>
 
-<!--    <div class="category-products">-->
-<!--        <h3>Peja Lagner</h3>-->
-<!--        <div class="grid-container">-->
-<!--            <div class="bs-card">-->
-<!--                <div class="bs-card-img" id="lager-glass"></div>-->
-<!--                <div class="bs-card-body">-->
-<!--                    <div class="bs-card-header">-->
-<!--                        <a href="#" class="bs-card-title">Peja Premium Lager Glass 250ml</a>-->
-<!--                    </div>-->
-<!--                    <div class="bs-coffee-data">-->
-<!--                        <span class="bs-card-brewery para-font">Package: 24 bottles</span>-->
-<!--                    </div>-->
-<!--                    <div class="bs-coffee-footer">-->
-<!--                    <span class="price">-->
-<!--                    </span>-->
-<!--                        <div class="quantity-div">-->
-<!--                            <button class="quantity-btn" onclick="decrementQuantity('Peja Premium Lager Glass 250ml')">-</button>-->
-<!--                            <span class="quantity">0</span>-->
-<!--                            <button class="quantity-btn" onclick="incrementQuantity('Peja Premium Lager Glass 250ml')">+</button>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="bs-card">-->
-<!--                <div class="bs-card-img" id="lager-can"></div>-->
-<!--                <div class="bs-card-body">-->
-<!--                    <div class="bs-card-header">-->
-<!--                        <a href="#" class="bs-card-title">Peja Premium Lager Can 250ml</a>-->
-<!--                    </div>-->
-<!--                    <div class="bs-coffee-data">-->
-<!--                        <span class="bs-card-brewery para-font">Package: 24 cans</span>-->
-<!--                    </div>-->
-<!--                    <div class="bs-coffee-footer">-->
-<!--                    <span class="price">-->
-<!--                    </span>-->
-<!--                        <div class="quantity-div">-->
-<!--                            <button class="quantity-btn" onclick="decrementQuantity('Peja Premium Lager Can 250ml')">-</button>-->
-<!--                            <span class="quantity">0</span>-->
-<!--                            <button class="quantity-btn" onclick="incrementQuantity('Peja Premium Lager Can 250ml')">+</button>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
 
-<!--    <div class="category-products">-->
-<!--        <h3>Peja Crudo</h3>-->
-<!--        <div class="grid-container">-->
-<!--            <div class="bs-card">-->
-<!--                <div class="bs-card-img" id="crudo-glass"></div>-->
-<!--                <div class="bs-card-body">-->
-<!--                    <div class="bs-card-header">-->
-<!--                        <a href="#" class="bs-card-title">Peja Crudo Glass 330ml</a>-->
-<!--                    </div>-->
-<!--                    <div class="bs-coffee-data">-->
-<!--                        <span class="bs-card-brewery para-font">Package: 24 bottles</span>-->
-<!--                    </div>-->
-<!--                    <div class="bs-coffee-footer">-->
-<!--                    <span class="price">-->
-<!--                    </span>-->
-<!--                        <div class="quantity-div">-->
-<!--                            <button class="quantity-btn" onclick="decrementQuantity('Peja Crudo Glass 330ml')">-</button>-->
-<!--                            <span class="quantity">0</span>-->
-<!--                            <button class="quantity-btn" onclick="incrementQuantity('Peja Crudo Glass 330ml')">+</button>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="bs-card">-->
-<!--                <div class="bs-card-img" id="crudo"></div>-->
-<!--                <div class="bs-card-body">-->
-<!--                    <div class="bs-card-header">-->
-<!--                        <a href="#" class="bs-card-title">Peja Crudo Can 330ml</a>-->
-<!--                    </div>-->
-<!--                    <div class="bs-coffee-data">-->
-<!--                        <span class="bs-card-brewery para-font">Package: 24 cans</span>-->
-<!--                    </div>-->
-<!--                    <div class="bs-coffee-footer">-->
-<!--                    <span class="price">-->
-<!--                    </span>-->
-<!--                        <div class="quantity-div">-->
-<!--                            <button class="quantity-btn" onclick="decrementQuantity('Peja Crudo Can 330ml')">-</button>-->
-<!--                            <span class="quantity">0</span>-->
-<!--                            <button class="quantity-btn" onclick="incrementQuantity('Peja Crudo Can 330ml')">+</button>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
 
-<!--    <div class="category-products">-->
-<!--        <h3>Peja Zero</h3>-->
-<!--        <div class="grid-container">-->
-<!--            <div class="bs-card">-->
-<!--                <div class="bs-card-img" id="zero-glass"></div>-->
-<!--                <div class="bs-card-body">-->
-<!--                    <div class="bs-card-header">-->
-<!--                        <a href="#" class="bs-card-title">Peja Zero Glass 330ml</a>-->
-<!--                    </div>-->
-<!--                    <div class="bs-coffee-data">-->
-<!--                        <span class="bs-card-brewery para-font">Package: 24 bottles</span>-->
-<!--                    </div>-->
-<!--                    <div class="bs-coffee-footer">-->
-<!--                    <span class="price">-->
-<!--                    </span>-->
-<!--                        <div class="quantity-div">-->
-<!--                            <button class="quantity-btn" onclick="decrementQuantity('Peja Zero Glass 330ml')">-</button>-->
-<!--                            <span class="quantity">0</span>-->
-<!--                            <button class="quantity-btn" onclick="incrementQuantity('Peja Zero Glass 330ml')">+</button>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="bs-card">-->
-<!--                <div class="bs-card-img" id="zero-can-330ml"></div>-->
-<!--                <div class="bs-card-body">-->
-<!--                    <div class="bs-card-header">-->
-<!--                        <a href="#" class="bs-card-title">Peja Zero Can 330ml</a>-->
-<!--                    </div>-->
-<!--                    <div class="bs-coffee-data">-->
-<!--                        <span class="bs-card-brewery para-font">Package: 24 cans</span>-->
-<!--                    </div>-->
-<!--                    <div class="bs-coffee-footer">-->
-<!--                    <span class="price">-->
-<!--                    </span>-->
-<!--                        <div class="quantity-div">-->
-<!--                            <button class="quantity-btn" onclick="decrementQuantity('Peja Zero Can 330ml')">-</button>-->
-<!--                            <span class="quantity">0</span>-->
-<!--                            <button class="quantity-btn" onclick="incrementQuantity('Peja Zero Can 330ml')">+</button>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="bs-card">-->
-<!--                <div class="bs-card-img" id="zero-can-500ml"></div>-->
-<!--                <div class="bs-card-body">-->
-<!--                    <div class="bs-card-header">-->
-<!--                        <a href="#" class="bs-card-title">Peja Zero Can 500ml</a>-->
-<!--                    </div>-->
-<!--                    <div class="bs-coffee-data">-->
-<!--                        <span class="bs-card-brewery para-font">Package: 24 cans</span>-->
-<!--                    </div>-->
-<!--                    <div class="bs-coffee-footer">-->
-<!--                    <span class="price">-->
-<!--                    </span>-->
-<!--                        <div class="quantity-div">-->
-<!--                            <button class="quantity-btn" onclick="decrementQuantity('Peja Zero Can 500ml')">-</button>-->
-<!--                            <span class="quantity">0</span>-->
-<!--                            <button class="quantity-btn" onclick="incrementQuantity('Peja Zero Can 500ml')">+</button>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
 
-<!--    <div class="category-products">-->
-<!--        <h3>Peja Pilsner Keg</h3>-->
-<!--        <div class="grid-container">-->
-<!--            <div class="bs-card">-->
-<!--                <div class="bs-card-img" id="pilsner-keg"></div>-->
-<!--                <div class="bs-card-body">-->
-<!--                    <div class="bs-card-header">-->
-<!--                        <a href="#" class="bs-card-title">Peja Pilsner Keg 30Lit</a>-->
-<!--                    </div>-->
-<!--                    <div class="bs-coffee-data">-->
-<!--                        <span class="bs-card-brewery para-font">Package: 1 Keg</span>-->
-<!--                    </div>-->
-<!--                    <div class="bs-coffee-footer">-->
-<!--                <span class="price">-->
-<!--                </span>-->
-<!--                        <div class="quantity-div">-->
-<!--                            <button class="quantity-btn" onclick="decrementQuantity('Peja Pilsner Keg 30Lit')">-</button>-->
-<!--                            <span class="quantity">0</span>-->
-<!--                            <button class="quantity-btn" onclick="incrementQuantity('Peja Pilsner Keg 30Lit')">+</button>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
+
+    <!-- Repeat for other categories -->
 
     <div class="checkout-center">
         <div class="checkout">
@@ -958,9 +836,32 @@
         <button id="scrollToCheckoutBtn"><i class="fa fa-chevron-down"></i></button>
     </div>
 
-
 </section>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="style.js"></script>
-
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 3,
+        spaceBetween: 20,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+            },
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+            },
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+        }
+    });
+</script>
 </body>
 </html>
